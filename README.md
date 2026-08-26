@@ -6,29 +6,30 @@
 
 ## 📸 Screenshots & Showcase
 
-<!-- Place your showcase image below -->
-![Aura Dictionary Showcase](YOUR_IMAGE_URL_OR_PATH_HERE)
+![Aura Dictionary Showcase](Main.png)
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features & Detailed Breakdown
 
-- 🔐 **Authentication System**:
-  - Registration with input validation (Name, Email, Username, Password, Confirm Password).
-  - Login system with persistent user session management (`UserSession.cs`).
-  
-- 📖 **Comprehensive Vocabulary CRUD**:
-  - **Search Word (`Ctrl + S`)**: Instant lookup of word definitions, phonetic details, synonyms, and antonyms.
-  - **Add Word (`Ctrl + A`)**: Add custom vocabulary records to your local or central database.
-  - **Update Word (`Ctrl + E`)**: Fetch and update existing word records dynamically.
-  - **Delete Word (`Ctrl + Del`)**: Safely delete word records from database.
+- 🔐 **User Authentication & Authorization**:
+  - **Account Registration**: Allows new users to create an account with input fields for Name, Email, Username, Password, and Confirm Password, including client-side validation to prevent duplicate entries and mismatched passwords.
+  - **Secure Login**: Verifies credentials securely against the database.
+  - **State & Session Management**: Tracks the logged-in user dynamically across all forms via `UserSession.cs`.
 
-- 👤 **Profile & Session Management**:
-  - View logged-in account details (Full Name, Email, Username).
-  - Secure session logout and exit routines.
+- 📖 **Comprehensive Vocabulary Management (CRUD)**:
+  - **Search Word (`Ctrl + S`)**: Instant keyword search that retrieves the exact word meaning, definition, phonetic details, synonyms, and antonyms with a single click.
+  - **Add Word (`Ctrl + A`)**: Dedicated form to insert new vocabulary into the database along with customized meanings, synonym lists, and antonym pairs.
+  - **Edit / Update Word (`Ctrl + E`)**: Search existing vocabulary records and update definitions or lexical data seamlessly.
+  - **Delete Word (`Ctrl + Del`)**: Safe word-deletion module that allows users to look up and remove unwanted words from the database with confirmation prompts.
 
-- 🎨 **Cosmic Themed Glassmorphic UI**:
-  - Custom celestial sci-fi UI layout with glowing neon aesthetics and structured layout panels.
+- 👤 **Profile & Account Management**:
+  - **Profile Viewer**: Displays current active user details including Full Name, Email ID, and Username directly from the session.
+  - **Session Control**: Quick access to Logout and Exit routines to safeguard user data.
+
+- 🎨 **Modern Cosmic UI/UX**:
+  - Sci-Fi cosmic purple aesthetics with glowing neon borders and semi-transparent panels.
+  - Optimized Windows Forms layout with intuitive MenuStrip navigation and quick keyboard access.
 
 ---
 
@@ -61,5 +62,5 @@ Aura_dictionary/
 │   ├── FrmDeleteWord.cs                       # Delete Word Module
 │   └── FrmProfile.cs                          # User Profile View
 │
-├── 📁 Assets/                     # UI Graphics, Backgrounds & Glowing Icons
+├── 📁 Assets/                     # Main.png & UI Graphics
 └── 📁 Properties/                 # Assembly & Resource Configurations
