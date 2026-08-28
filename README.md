@@ -1,4 +1,4 @@
-<br> # 🌌 Aura Dictionary (Aura_Dictionary) </br>
+# 🌌 Aura Dictionary (Aura_Dictionary)
 
 > A modern, elegant, and interactive Desktop Dictionary Application built using C# Windows Forms and Database integration. **Aura Dictionary** provides complete vocabulary management, user authentication, and seamless lexical search with an immersive cosmic-themed UI.
 
