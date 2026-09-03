@@ -4,7 +4,7 @@
   <br>
 
   <!-- THE ONLY IMAGE: The Showcase Collage -->
-  <img src="showcase.png" alt="Aura Dictionary Showcase" width="100%">
+  <img src="Main.png" alt="Aura Dictionary Showcase" width="100%">
 
   <p align="center">
     <i>✨ The showcase above features all application forms: <b>Registration, Login, Main Dashboard, Dictionary Search, Add Word, Edit Word, Delete Word, and User Profile</b>. ✨</i>
@@ -23,28 +23,46 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=9C27B0&center=true&vCenter=true&width=400&lines=✨+Core+Features;🔎+Smart+Search;🛠️+Word+Management;🔐+User+Authentication" alt="Features Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=9C27B0&center=true&vCenter=true&width=500&lines=✨+Application+Forms;🔎+Core+Features+%26+Modules;🛠️+Complete+Management" alt="Features Typing SVG" />
 </div>
 
 <br>
 
-| 🔎 **Dictionary Features** | 🛠️ **Word Management** | 🔐 **User Accounts** |
-| :--- | :--- | :--- |
-| • **Search Words** instantly | • **Add** new words to DB | • **Register** new accounts |
-| • View **Meaning** | • **Edit/Update** existing words | • Secure **Login** |
-| • View **Synonyms** | • **Delete** words permanently | • View **User Profile** |
-| • View **Antonyms** | • **Duplicate Check** on add | • Safe **Logout** & Sessions |
+### 🗂️ All Application Forms & Features
+
+| 🖼️ Form Name | 🔎 Key Features & Description |
+| :--- | :--- |
+| **📝 Registration Form** | • Create a new user account securely.<br>• Password match verification.<br>• Stores user data into the MySQL database. |
+| **🔐 Login Form** | • Secure authentication with Username and Password.<br>• Session management ensures only authorized users can access the dashboard. |
+| **🎛️ Main Dashboard** | • The central MDI parent form.<br>• Displays a welcome message and provides easy navigation to all dictionary tools via menus. |
+| **🔎 Dictionary Search** | • Instantly search words from the database.<br>• Displays complete information: **Meaning, Synonyms, and Antonyms**.<br>• Clear and back navigation controls. |
+| **➕ Add Word Form** | • Allows authorized users to add new vocabulary.<br>• Built-in **Duplicate Check** prevents adding words that already exist in the database. |
+| **✏️ Edit Word Form** | • Search for an existing word and update its details.<br>• Modify the meaning, synonyms, or antonyms and save changes directly to the database. |
+| **🗑️ Delete Word Form** | • Permanently remove incorrect or unwanted words from the dictionary database.<br>• Includes safe deletion validation. |
+| **👤 User Profile** | • Displays current logged-in user information.<br>• Shows registered Username and Email address associated with the account. |
 
 ---
 
-### 🚀 Quick Setup
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BCD4&center=true&vCenter=true&width=400&lines=💾+Database+Structure;⚙️+Technology+Stack" alt="Tech Typing SVG" />
+</div>
 
-1. **Database:** Create `dictionary_db` in MySQL with `users` and `words` tables.
-2. **Configuration:** Update the database credentials inside `DBConnection.cs`.
-3. **Run:** Open `Aura_dictionary.sln` in Visual Studio and press **Start**.
+### 💾 Database Details
+The application relies on a MySQL database (`dictionary_db`) consisting of two main tables:
+* **`users` table**: Stores `id`, `name`, `email`, `username`, and `password`.
+* **`words` table**: Stores `id`, `word`, `meaning`, `synonym`, `antonym`, and `created_at`.
+
+### 🚀 Quick Installation & Setup
+
+1. **Install Prerequisites**: Ensure you have Visual Studio and a local MySQL Server (like WAMP/XAMPP) installed.
+2. **Setup Database**: 
+   * Create a new database named `dictionary_db`.
+   * Create the `users` and `words` tables.
+3. **Configure Connection**: Open `DBConnection.cs` in the project and update your MySQL username and password.
+4. **Run Application**: Open `Aura_dictionary.sln` in Visual Studio, build the solution, and press **Start**.
 
 <br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=2000&color=ffffff&center=true&vCenter=true&width=300&lines=Built+with+C%23+%26+MySQL;Expand+Your+Words" alt="Footer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=2000&color=ffffff&center=true&vCenter=true&width=350&lines=Built+with+C%23+%26+MySQL;Expand+Your+Words+•+Enrich+Your+World" alt="Footer" />
 </div>
