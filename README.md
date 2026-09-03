@@ -1,66 +1,50 @@
-# 🌌 Aura Dictionary (Aura_Dictionary)
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=1000&color=B026FF&center=true&vCenter=true&width=800&lines=AURA+DICTIONARY;Expand+Your+Words...;Enrich+Your+World...;Digital+Dictionary+Showcase" alt="Typing SVG" />
 
-> A modern, elegant, and interactive Desktop Dictionary Application built using C# Windows Forms and Database integration. **Aura Dictionary** provides complete vocabulary management, user authentication, and seamless lexical search with an immersive cosmic-themed UI.
+  <br>
 
----
+  <!-- THE ONLY IMAGE: The Showcase Collage -->
+  <img src="showcase.png" alt="Aura Dictionary Showcase" width="100%">
 
-## 📸 Screenshots & Showcase
+  <p align="center">
+    <i>✨ The showcase above features all application forms: <b>Registration, Login, Main Dashboard, Dictionary Search, Add Word, Edit Word, Delete Word, and User Profile</b>. ✨</i>
+  </p>
 
-![Aura Dictionary Showcase](Main.png)
+  <br>
 
----
-
-## ✨ Key Features & Detailed Breakdown
-
-- 🔐 **User Authentication & Authorization**:
-  - **Account Registration**: Allows new users to create an account with input fields for Name, Email, Username, Password, and Confirm Password, including client-side validation to prevent duplicate entries and mismatched passwords.
-  - **Secure Login**: Verifies credentials securely against the database.
-  - **State & Session Management**: Tracks the logged-in user dynamically across all forms via `UserSession.cs`.
-
-- 📖 **Comprehensive Vocabulary Management (CRUD)**:
-  - **Search Word (`Ctrl + S`)**: Instant keyword search that retrieves the exact word meaning, definition, phonetic details, synonyms, and antonyms with a single click.
-  - **Add Word (`Ctrl + A`)**: Dedicated form to insert new vocabulary into the database along with customized meanings, synonym lists, and antonym pairs.
-  - **Edit / Update Word (`Ctrl + E`)**: Search existing vocabulary records and update definitions or lexical data seamlessly.
-  - **Delete Word (`Ctrl + Del`)**: Safe word-deletion module that allows users to look up and remove unwanted words from the database with confirmation prompts.
-
-- 👤 **Profile & Account Management**:
-  - **Profile Viewer**: Displays current active user details including Full Name, Email ID, and Username directly from the session.
-  - **Session Control**: Quick access to Logout and Exit routines to safeguard user data.
-
-- 🎨 **Modern Cosmic UI/UX**:
-  - Sci-Fi cosmic purple aesthetics with glowing neon borders and semi-transparent panels.
-  - Optimized Windows Forms layout with intuitive MenuStrip navigation and quick keyboard access.
+  <p align="center">
+    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
+    <img src="https://img.shields.io/badge/Windows_Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+    <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
+  </p>
+</div>
 
 ---
 
-## 🛠️ Technology Stack
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=9C27B0&center=true&vCenter=true&width=400&lines=✨+Core+Features;🔎+Smart+Search;🛠️+Word+Management;🔐+User+Authentication" alt="Features Typing SVG" />
+</div>
 
-- **Framework**: .NET Framework (Windows Forms / WinForms)
-- **Language**: C# (`.cs`)
-- **Database**: ADO.NET / SQL Database (`DBConnection.cs`)
-- **IDE**: Microsoft Visual Studio 2022 / 2019
-- **Architecture**: Modular Multi-Form Architecture with centralized Session & DB handling
+<br>
+
+| 🔎 **Dictionary Features** | 🛠️ **Word Management** | 🔐 **User Accounts** |
+| :--- | :--- | :--- |
+| • **Search Words** instantly | • **Add** new words to DB | • **Register** new accounts |
+| • View **Meaning** | • **Edit/Update** existing words | • Secure **Login** |
+| • View **Synonyms** | • **Delete** words permanently | • View **User Profile** |
+| • View **Antonyms** | • **Duplicate Check** on add | • Safe **Logout** & Sessions |
 
 ---
 
-## 📂 Project Architecture & File Structure
+### 🚀 Quick Setup
 
-```text
-Aura_dictionary/
-│
-├── 📄 Program.cs                  # Application Entry Point
-├── 📄 DBConnection.cs             # Centralized Database Connection Handler
-├── 📄 UserSession.cs              # Global State & User Session Tracker
-│
-├── 🖥️ Windows Forms & UI:
-│   ├── Form1.cs / Form1.Designer.cs           # User Registration Form
-│   ├── Form2.cs / Form2.Designer.cs           # User Login Form
-│   ├── FrmMain.cs / FrmMain.Designer.cs       # Main Navigation Dashboard
-│   ├── FrmDictionary.cs                       # Search & Dictionary Operations
-│   ├── FrmAddWord.cs                          # Add New Word Module
-│   ├── FrmEditWord.cs                         # Edit / Update Word Module
-│   ├── FrmDeleteWord.cs                       # Delete Word Module
-│   └── FrmProfile.cs                          # User Profile View
-│
-├── 📁 Assets/                     # Main.png & UI Graphics
-└── 📁 Properties/                 # Assembly & Resource Configurations
+1. **Database:** Create `dictionary_db` in MySQL with `users` and `words` tables.
+2. **Configuration:** Update the database credentials inside `DBConnection.cs`.
+3. **Run:** Open `Aura_dictionary.sln` in Visual Studio and press **Start**.
+
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=2000&color=ffffff&center=true&vCenter=true&width=300&lines=Built+with+C%23+%26+MySQL;Expand+Your+Words" alt="Footer" />
+</div>
