@@ -1,4 +1,4 @@
-<div align="center">
+<h2> <div align="center"> </h2>
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=1000&color=B026FF&center=true&vCenter=true&width=800&lines=AURA+DICTIONARY;Expand+Your+Words...;Enrich+Your+World...;Digital+Dictionary+Showcase" alt="Typing SVG" />
 
   <br>
